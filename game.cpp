@@ -2,7 +2,9 @@
 #include <string>
 
 int main() {
-    while (true) {    std::cout << "\033[2J \033[1;1H";
+    while (true) {    
+        std::cout << "\033[2J \033[1;1H";
+        std::cout << "\033[44m";
         std::cout << "You live a comfortable life as a millionaire, but one day, you hear news about a company that just developed a way to upload someone's mind to a computer simulation once they die, so of course, like any reasonable person, you bought them out, you set it up on your own servers, and, like life always goes, die one week later." << std::endl;
         
         std::string q1;
